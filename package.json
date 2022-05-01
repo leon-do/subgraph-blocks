@@ -1,13 +1,13 @@
 {
   "name": "subgraph-block",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ subgraph-block",
-    "create-local": "graph create --node http://localhost:8020/ subgraph-block",
-    "remove-local": "graph remove --node http://localhost:8020/ subgraph-block",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 subgraph-block"
+    "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ subgraph-block-rinkeby",
+    "create-local": "graph create --node http://localhost:8020/ subgraph-block-rinkeby",
+    "remove-local": "graph remove --node http://localhost:8020/ subgraph-block-rinkeby",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 subgraph-block-rinkeby"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "0.26.0",
